@@ -1,0 +1,47 @@
+﻿<div style="margin:10px;">
+    <div class="alert alert-success hidden" id="success">
+        <strong>Success!</strong> Crawling is done with the given depth and result is saved in database.
+    </div>
+    <div class="alert alert-info hidden" role="alert" id="info">
+        <strong>Crawling and scrapping</strong>  is in progress!
+    </div>
+    <b>URL </b>
+    <input type="text" size="40" value="" name="url" id="url" class="form-control" title="Enter the URL of a web page to crawl">
+    <b>Depth</b>
+    <input type="text" size="4" value="" name="depth" id="depth" class="form-control" title="Enter the depth">
+    <br />
+    <input type="button" id="btnUrl" class=" center-block btn btn-primary" value="Crawl">
+</div>
+
+@*Since we meed only a click event, so it has been added here only.Otherwise we should put it in an external js file*@ 
+<script>
+    $(document).ready(function () {
+        $("#btnUrl").click(function () {
+            $('#success').addClass('hidden');
+            $('#info').addClass('hidden');
+
+            url = $('#url').val();
+            depth = $('#depth').val();
+            if (url != "" && depth != "") {
+                $('#info').removeClass('hidden');
+
+                $.ajax({
+                    url: "/Values/GetRelation",
+                    type: 'GET',
+                    data: {
+                        url: url,
+                        depth: depth
+                    },
+                    success: function (result) {
+                        if (result) {
+                            $('#info').addClass('hidden');
+                            $('#success').removeClass('hidden');
+                        }
+                    }
+                });
+            } else {
+                alert('Please enter bothe Url and depth!!')
+            }
+        });
+    });
+</script>
