@@ -1,0 +1,44 @@
+2019-01-03 18:29:40.884+0000 WARN  ha.pull_interval is deprecated.
+2019-01-03 18:29:40.953+0000 INFO  ======== Neo4j 3.5.0 ========
+2019-01-03 18:29:40.966+0000 INFO  Starting...
+2019-01-03 18:29:43.909+0000 INFO  Initiating metrics...
+2019-01-03 18:29:52.111+0000 INFO  Sending metrics to CSV file at C:\Users\Mehara\.Neo4jDesktop\neo4jDatabases\database-d19b9d11-d613-4102-8c4d-fcf21f88ded3\installation-3.5.0\metrics
+2019-01-03 18:29:53.893+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2019-01-03 18:29:55.532+0000 WARN  Server thread metrics not available (missing neo4j.server.threads.jetty.all)
+2019-01-03 18:29:55.540+0000 WARN  Server thread metrics not available (missing neo4j.server.threads.jetty.idle)
+2019-01-03 18:29:57.399+0000 INFO  Started.
+2019-01-03 18:29:57.869+0000 INFO  Mounted REST API at: /db/manage
+2019-01-03 18:29:57.983+0000 INFO  Server thread metrics have been registered successfully
+2019-01-03 18:29:59.673+0000 INFO  Remote interface available at http://localhost:7474/
+2019-01-03 18:30:09.420+0000 WARN  The client is unauthorized due to authentication failure.
+2019-01-03 18:37:42.152+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: URI is not hierarchical, reference 14818200-24bb-4167-8a1e-e6502aa69ceb.
+2019-01-03 18:38:34.801+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: URI is not hierarchical, reference 27d20db2-a46a-4837-8912-bdcb74149949.
+2019-01-03 18:38:59.980+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: URI is not hierarchical, reference 3a44259b-c65d-4804-b555-c6aaf93f0208.
+2019-01-03 18:43:10.556+0000 WARN  ha.pull_interval is deprecated.
+2019-01-03 18:43:10.616+0000 INFO  ======== Neo4j 3.5.0 ========
+2019-01-03 18:43:10.625+0000 INFO  Starting...
+2019-01-03 18:43:12.860+0000 INFO  Initiating metrics...
+2019-01-03 18:43:18.822+0000 INFO  Sending metrics to CSV file at C:\Users\Mehara\.Neo4jDesktop\neo4jDatabases\database-d19b9d11-d613-4102-8c4d-fcf21f88ded3\installation-3.5.0\metrics
+2019-01-03 18:43:20.145+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2019-01-03 18:43:22.118+0000 WARN  Server thread metrics not available (missing neo4j.server.threads.jetty.all)
+2019-01-03 18:43:22.132+0000 WARN  Server thread metrics not available (missing neo4j.server.threads.jetty.idle)
+2019-01-03 18:43:24.069+0000 INFO  Started.
+2019-01-03 18:43:24.505+0000 INFO  Mounted REST API at: /db/manage
+2019-01-03 18:43:24.623+0000 INFO  Server thread metrics have been registered successfully
+2019-01-03 18:43:26.205+0000 INFO  Remote interface available at http://localhost:7474/
+2019-01-03 18:44:12.935+0000 WARN  The client is unauthorized due to authentication failure.
+2019-01-03 18:44:23.769+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: URI is not hierarchical, reference 2e3d3651-1e38-47b0-b801-c8c176489c7e.
+2019-01-03 18:45:53.691+0000 WARN  ha.pull_interval is deprecated.
+2019-01-03 18:45:53.745+0000 INFO  ======== Neo4j 3.5.0 ========
+2019-01-03 18:45:53.755+0000 INFO  Starting...
+2019-01-03 18:45:57.046+0000 INFO  Initiating metrics...
+2019-01-03 18:46:03.054+0000 INFO  Sending metrics to CSV file at C:\Users\Mehara\.Neo4jDesktop\neo4jDatabases\database-d19b9d11-d613-4102-8c4d-fcf21f88ded3\installation-3.5.0\metrics
+2019-01-03 18:46:04.350+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2019-01-03 18:46:06.376+0000 WARN  Server thread metrics not available (missing neo4j.server.threads.jetty.all)
+2019-01-03 18:46:06.475+0000 WARN  Server thread metrics not available (missing neo4j.server.threads.jetty.idle)
+2019-01-03 18:46:07.902+0000 INFO  Started.
+2019-01-03 18:46:08.319+0000 INFO  Mounted REST API at: /db/manage
+2019-01-03 18:46:08.583+0000 INFO  Server thread metrics have been registered successfully
+2019-01-03 18:46:10.237+0000 INFO  Remote interface available at http://localhost:7474/
+2019-01-03 18:46:17.403+0000 WARN  The client is unauthorized due to authentication failure.
+2019-01-03 18:46:22.170+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: URI is not hierarchical, reference dc1c5ecc-6a33-4a14-a6ff-985a3aaf8a66.
